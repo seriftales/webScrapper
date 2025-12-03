@@ -95,9 +95,6 @@ int main() {
     std::cout << "Gecen Toplam Sure (Paralel): **" << duration.count() << " ms**" << std::endl;
     std::cout << "--------------------------------------------------" << std::endl;
     
-    std::cout << "Eger bu islem sirayla (tek thread) yapılsaydı, yaklasik olarak " 
-              << urls.size() * 600 // Ort. 600ms kabul edilirse
-              << " ms surecekti." << std::endl;
 
     return 0;
 }
